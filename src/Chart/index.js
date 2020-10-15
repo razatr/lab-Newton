@@ -1,8 +1,13 @@
 import React from 'react'
 import { VictoryChart, VictoryLine, VictoryTheme, VictoryContainer } from 'victory'
-import { func, newton } from './newton'
+import { connect } from 'react-redux'
+import { func, getNewton } from './newton'
 
-function Chart() {
+function Chart(props) {
+
+    const { points } = props
+    const newton = getNewton(points)
+
     return (<VictoryChart
         maxDomain={ { x: 7, y: 4 } }
         minDomain={ { x: -1, y: -4 } }
@@ -14,13 +19,12 @@ function Chart() {
                      animate={ { duration: 1500 } }
                      style={ {
                          data: {
-                             stroke: '#c43a31'
+                             stroke: '#ff0000'
                          }
                      } }/>
         <VictoryLine data={ newton }
                      animate={ {
-                         duration: 1500,
-                         delay: 1000
+                         duration: 1500
                      } }
                      style={ {
                          data: {
@@ -30,4 +34,6 @@ function Chart() {
     </VictoryChart>)
 }
 
-export default Chart
+export default connect(state => ({
+    points: state
+}))(Chart)

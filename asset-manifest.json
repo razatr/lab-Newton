@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/lab-Newton/static/js/main.d7e560d4.chunk.js",
-    "main.js.map": "/lab-Newton/static/js/main.d7e560d4.chunk.js.map",
+    "main.js": "/lab-Newton/static/js/main.77ead931.chunk.js",
+    "main.js.map": "/lab-Newton/static/js/main.77ead931.chunk.js.map",
     "runtime-main.js": "/lab-Newton/static/js/runtime-main.b57e3d1f.js",
     "runtime-main.js.map": "/lab-Newton/static/js/runtime-main.b57e3d1f.js.map",
-    "static/js/2.49e38f33.chunk.js": "/lab-Newton/static/js/2.49e38f33.chunk.js",
-    "static/js/2.49e38f33.chunk.js.map": "/lab-Newton/static/js/2.49e38f33.chunk.js.map",
+    "static/js/2.ad21a246.chunk.js": "/lab-Newton/static/js/2.ad21a246.chunk.js",
+    "static/js/2.ad21a246.chunk.js.map": "/lab-Newton/static/js/2.ad21a246.chunk.js.map",
     "index.html": "/lab-Newton/index.html",
-    "precache-manifest.d6573a0dc08cffd8b1f0d6a4ba088ec5.js": "/lab-Newton/precache-manifest.d6573a0dc08cffd8b1f0d6a4ba088ec5.js",
+    "precache-manifest.1b2240feb56d6d7c04c3b4322acec03e.js": "/lab-Newton/precache-manifest.1b2240feb56d6d7c04c3b4322acec03e.js",
     "service-worker.js": "/lab-Newton/service-worker.js",
-    "static/js/2.49e38f33.chunk.js.LICENSE.txt": "/lab-Newton/static/js/2.49e38f33.chunk.js.LICENSE.txt"
+    "static/js/2.ad21a246.chunk.js.LICENSE.txt": "/lab-Newton/static/js/2.ad21a246.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b57e3d1f.js",
-    "static/js/2.49e38f33.chunk.js",
-    "static/js/main.d7e560d4.chunk.js"
+    "static/js/2.ad21a246.chunk.js",
+    "static/js/main.77ead931.chunk.js"
   ]
 }

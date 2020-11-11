@@ -22,6 +22,25 @@ function polynomial(x, points) {
     return res
 }
 
+const h = Math.PI / 7
+
+const test = [
+    0.5 * h,
+    2.5 * h,
+    6.5 * h,
+    4.5 * h,
+    1.5 * h
+]
+
+console.log('dfsdsf --- ', 6*dividedDifferences([0, 0.5 * h, 1.5 * h]))
+console.log(f(0))
+console.log(f(0.5 * h))
+console.log(f(1.5 * h))
+
+for(let i = 1; i < 5; i++){
+    console.log(`Разделенная разность для ${i+1} элементов`, dividedDifferences(test.slice(0, i + 1)))
+}
+
 export const func = []
 
 for (let i = 0; i < 128; i++) {

@@ -1,10 +1,8 @@
-### `yarn start`
+# Лабораторная "многчлен Ньютона"
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Данная программа строит интерполяционный многочлен Ньютона для любого подмножества изначально данных нам узлов. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-### `yarn run deploy`
-
-Deploy the app on [https://razatr.github.io/lab-Newton/](https://razatr.github.io/lab-Newton/)
+Константа <img src="https://i.upmath.me/svg/h%3D%5Cpi%2F7" alt="h=\pi/7" />.
+ 
+ Интерполируемая функция 
+<img src="https://i.upmath.me/svg/f(x)%20%3D%20sin(x)*%5Csqrt%7Bx%7D%2B1" alt="f(x) = sin(x)*\sqrt{x}+1" />

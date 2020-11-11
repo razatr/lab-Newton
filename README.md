@@ -6,3 +6,5 @@
  
  Интерполируемая функция 
 <img src="https://i.upmath.me/svg/f(x)%20%3D%20sin(x)*%5Csqrt%7Bx%7D%2B1" alt="f(x) = sin(x)*\sqrt{x}+1" />
+
+Результат [https://razatr.github.io/lab-Newton/](https://razatr.github.io/lab-Newton/)
